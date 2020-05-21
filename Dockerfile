@@ -1,6 +1,5 @@
-  
 FROM ubuntu:19.04
-
+MAINTAINER arshad.haque555@gmail.com
 RUN apt-get update
 # dig, nslookup, etc.
 RUN apt-get install -y dnsutils
